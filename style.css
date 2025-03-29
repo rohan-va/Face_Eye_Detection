@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+    background: #B1CAED;
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: circle;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #FF4800;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.lebron-mode {
+    background-color: #FFEC80;
+    color: purple;
+}
+
+.dark-mode .container {
+    background: #444;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
