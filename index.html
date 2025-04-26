@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emotion Detection</title>
+    <title>Face & Eye Detection</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="emotiondetection.png" alt="My Project Picture" class="project-pic">
+            <img src="emotion.jpg" alt="Face/Eye Detection" class="project-pic">
             <h1 id="name">My Capstone Project</h1>
-            <p>Welcome to my project! For my MIT Capstone Project, I have created an emotion detection ML using OpenCV and DeepFace. This program detects your eyes and face using gray scale and creates colored frames around your face features using BGR.</p>
-            <button onclick="toggleDarkMode()">My Code</button>
-            <button onclick="toggleLebronMode()">Toggle Lebron Mode</button>
-            <button onclick=
+            <p>Welcome to my capstone project! For my MIT capstone project I created a face/eye detecting software using OpenCV and Python, taking in factors like gray scale for the imaging and BGR for the frame around the features of your face. Because this was somewhat simple, I created this website to convey the process of my work.</p>
+            <button onclick="toggleDarkMode()">Dark Mode</button>
         </header>
         
         <section id="about">
-            <h2>About Me</h2>
-            <p>TODO</p>
+            <h2>More about the Project</h2>
+            <p>This project was made within Visual Studio Code and with the help of one or two tutorials I learned how to do it. This program uses OpenCV which, most popularly, allows you to use your webcam to run programs. This program also defines the dimensions of the frames around your faces/eyes and includes information on the feature of them using gray scale and BGR. It gains intel from the haarcascade files which implement the basic strucutre of the face/eyes so that the program can detect it and the last few pieces of code are for the function of the program to end. To explain, if cv2.waitKey(1) &0xFF == ord('q'): break. This means that once the 'q' key is pressed, the window (OpenCV) will close. 
+            <img src="codefaceeye.jpg" alt="Code for the Program" class="code-pic">
         </section>
         
         <section id="projects">
